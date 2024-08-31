@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import LogoImage from "../assets/img/Logo2.png";
+import Logo1Image from "../assets/img/Logo2.png";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
     <Container>
       <Row className="d-flex justify-content-between">
         <Col lg="4">
-        <img src={LogoImage} alt="logo-img" />
+        <img src={Logo1Image} alt="logo1-img" />
         <p className="desc pt-4">
         Nikmati kopi organik pilihan dari petani lokal sambil bersantai di suasana yang terhubung dengan alam. 
         Di sini, kami percaya bahwa kebaikan untuk diri sendiri dan lingkungan bisa dimulai dari hal sederhana—seperti 
