@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react";
 import {Navbar, Container, Nav} from "react-bootstrap";
+import LogoImage from "../assets/img/Logo2.png";
 
 import {navLinks} from"../data/index";
 import {NavLink} from "react-router-dom";
@@ -27,7 +28,7 @@ const NavbarComponent = () => {
      <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-        <img src="public/Logo2.png" class="navbar-logo" alt="logo" />
+        <img src={LogoImage} alt="logo-img" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
