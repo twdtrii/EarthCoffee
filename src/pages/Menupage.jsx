@@ -10,7 +10,7 @@ const Menupage = () => {
       <Container>
         <Row>
           <Col>
-          <h1 className="fw-bold text-center">Menu</h1>
+          <h1 className="fw-bold text-center animate__animated animate__fadeInUp">Menu</h1>
           </Col>
 
 
@@ -19,7 +19,7 @@ const Menupage = () => {
         <Row>
           {semuaMenu.map((menu) =>{
             return(
-              <Col key={menu.id} className="shadow rounded">
+              <Col key={menu.id} className="shadow rounded" data-aos="fade.up" data-aos-duration="1000" data-aos-delay={menu.delay}>
                 <img src={menu.image} alt="unsplash2.com" className="w-100 mb-4 rounded-top" />
                 <div className="star mb-2 px-3">
                   <i className={menu.star1}></i>
@@ -44,7 +44,7 @@ const Menupage = () => {
     <Container>
       <Row>
           <Col>
-          <h1 className="fw-bold mb-5">Earth Desserts</h1>
+          <h1 className="fw-bold mb-5 animate__animated animate__fadeInUp">Earth Desserts</h1>
           </Col>
         </Row>
 
@@ -52,7 +52,7 @@ const Menupage = () => {
         <Row>
           {semuaMenu2.map((menu) =>{
             return(
-              <Col key={menu.id} className="shadow rounded">
+              <Col key={menu.id} className="shadow rounded" data-aos="fade.up" data-aos-duration="1000" data-aos-delay={menu.delay}>
                 <img src={menu.image} alt="unsplash2.com" className="w-100 mb-4 rounded-top" />
                 <div className="star mb-2 px-3">
                   <i className={menu.star1}></i>
@@ -75,7 +75,7 @@ const Menupage = () => {
     <Container>
       <Row>
           <Col>
-          <h1 className="fw-bold mb-5">Special Paket Earth</h1>
+          <h1 className="fw-bold mb-5 animate__animated animate__fadeInUp">Special Paket Earth</h1>
           </Col>
         </Row>
 
@@ -83,7 +83,7 @@ const Menupage = () => {
         <Row>
           {specialMenu.map((menu) =>{
             return(
-              <Col key={menu.id} className="shadow rounded">
+              <Col key={menu.id} className="shadow rounded" data-aos="fade.up" data-aos-duration="1000" data-aos-delay={menu.delay}>
                 <img src={menu.image} alt="unsplash2.com" className="w-100 mb-4 rounded-top" />
                 <div className="star mb-2 px-3">
                   <i className={menu.star1}></i>
