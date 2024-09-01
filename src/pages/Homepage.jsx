@@ -39,8 +39,8 @@ const Homepage = () => {
                 <Container>
                   <Row>
                     <Col>
-                      <h1 className="fw-bold">Our Story Our Story Our Story</h1>
-                      <p className="">Our Story</p>
+                      <h1 className="fw-bold animate__animated animate__fadeInUp animate__delay-1s">Our Story Our Story Our Story</h1>
+                      <p className="animate__animated animate__fadeInUp animate__delay-1s">Our Story</p>
                     </Col>
                   </Row>
                   <Row>
@@ -51,7 +51,7 @@ const Homepage = () => {
                     })}
 
                     <Col>
-                      <p>
+                      <p className="animate__animated animate__fadeInUp animate__delay-1s">
                         <span>
                           <br />
                           <br/>
@@ -72,14 +72,14 @@ const Homepage = () => {
               <Container>
               <Row>
                     <Col>
-                        <h1 className="text-center fw-bold">Promo di Earth Coffee</h1>
-                        <p className="text-center">Temukan berbagai promo menarik di sini!</p>
+                        <h1 className="text-center fw-bold animate__animated animate__fadeInUp animate__delay-1s">Promo di Earth Coffee</h1>
+                        <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">Temukan berbagai promo menarik di sini!</p>
                     </Col>
               </Row>
 
               <Row>
               {PromoTerbaru.map((promo) => {
-                      return <Col key={promo.id} className="shadow rounded">
+                      return <Col key={promo.id} className="shadow rounded" className="shadow rounded" data-aos="fade.up" data-aos-duration="1000">
                        <img src={promo.image} alt="unsplash.com" className="w-100 mb-5 rounded-top"/>
                       </Col>
                     })}
@@ -90,8 +90,8 @@ const Homepage = () => {
               <Container>
                 <Row>
                   <Col>
-                    <h1 className="text-center fw-bold pt-5">Testimoni</h1>
-                    <p className="text-center">Kenyamanan Customer Menjadi Utama</p>
+                    <h1 className="text-center fw-bold pt-5 animate__animated animate__fadeInUp animate__delay-1s">Testimoni</h1>
+                    <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">Kenyamanan Customer Menjadi Utama</p>
                   </Col>
                 </Row>
 
