@@ -18,14 +18,14 @@ import { Pagination } from 'swiper/modules';
 const Homepage = () => {
   return (
       <div className="homepage">
-                <header className="w-100 min-vh-100 d-flex align-items-center">     
+                <header className="w-100 min-vh-100 d-flex align-items-center overflow-hidden">     
               <Container>
                 <Row className="header-box d-flex align-items-center pt-lg-5">
                   <Col lg="6">
-                    <h1 className="mb-4">
+                    <h1 className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">
                     Menikmati Secangkir Coffee <br /> <span>Sambil Bersantai Dengan</span> <br /> Melindungi Bumi!
                     </h1>
-                    <p className="mb-4"> kami percaya bahwa kebaikan untuk diri sendiri dan<br /> lingkungan bisa dimulai dari hal sederhana seperti<br />
+                    <p className="mb-4 animate__animated animate__fadeInUp animate__delay-1s"> kami percaya bahwa kebaikan untuk diri sendiri dan<br /> lingkungan bisa dimulai dari hal sederhana seperti<br />
                     secangkir earth coffee
                     </p>
                   </Col>
